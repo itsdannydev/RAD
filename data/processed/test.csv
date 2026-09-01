@@ -1,35 +1,65 @@
-req_id,text,vague_quantifier,passive_no_actor,unresolved_pronoun,missing_measurable,weak_conflicting_modality
-REQ-0237,The product shall comply with the estimatics laws relating to recycled parts usage.,False,False,False,False,False
-REQ-0007,The product shall respond fast to keep up-to-date data in the display.,True,False,False,True,False
-REQ-0432,The website shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the website.,False,False,True,False,False
-REQ-0376,System shall let existing customers log into the website with their email address and password in under 5 seconds.,False,False,False,False,False
-REQ-0203,The product must support Mozilla Firefox 1.0 and above.,False,False,False,False,False
-REQ-0250,The estimator shall search for available recycled parts using a list of preferred parts suppliers.,False,False,False,False,False
-REQ-0474,If a lead is scored to the high range the system will supply the lead data and score to the enterprise system.,False,True,False,True,False
-REQ-0346,The product shall have a customizable Look and Feel.,False,False,False,False,False
-REQ-0524,For each shot the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.,False,False,False,False,False
-REQ-0497,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,True,False,False,True,False
-REQ-0618,""" The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group prior to implementation. The remaining 5% will be corrected and approved within one month of product release.""",True,True,False,False,False
-REQ-0159,The Disputes application shall interface with the Letters application. This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.,False,True,True,False,False
-REQ-0146,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student including student ID student name phone number e-mail status (full time or part time) and program of study.,False,False,False,False,False
-REQ-0459,Website must be able to support free trial periods with various parameters set by the Izogn Manager.,True,False,False,False,False
-REQ-0016,The bottom 3/4 of the table will hold events that occur according to its relevance to current time.,False,False,True,False,False
-REQ-0117,The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Membersâ€™ planning purposes.,False,False,False,False,False
-REQ-0350,The System shall allow for a minimum of 6 users to work at the same time.,False,False,False,False,False
-REQ-0589,The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats). Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.,False,False,False,False,False
-REQ-0063,The system shall be able to call the seller or buyer to schedule an appointment,False,False,False,False,False
-REQ-0033,The system shall be intuitive and self explanatory.,True,False,False,False,False
-REQ-0070,The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.,False,False,False,False,False
-REQ-0169,The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.,False,False,False,False,False
-REQ-0313,The product shall ensure that only company employees or external users with company-approved user IDs may have product access. 100% of all logons shall be by either company employees or external users with company-approved user IDs.,False,False,False,False,True
-REQ-0123,A clinical lab section shall include the clinical site name the class instructor day and time of the lab.,False,False,False,False,False
-REQ-0235,The system shall prevent malicious attacks including denial of service.,False,False,False,False,False
-REQ-0076,Staff members shall be able to complete a set of tasks in a timely manner.,True,False,False,False,False
-REQ-0248,The system shall return a list of repair facilities within the radius if the preferred repair facility cannot be determined.,False,True,False,False,False
-REQ-0197,The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions. The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.,False,False,False,False,False
-REQ-0101,A cohort shall be associated to one Program of Study offered by the department.,False,True,False,False,False
-REQ-0056,The product shall prevent its data from incorrect data being introduced.,False,False,False,False,False
-REQ-0204,The product shall interface with the Choice Parts System. This provides the feed of recycled parts data.,False,False,True,False,False
-REQ-0351,The System shall utilize currently owned computer equipment.,False,False,False,False,False
-REQ-0040,The product shall synchronize contacts and appointments in an acceptable time.,True,False,False,False,False
-REQ-0596,Each page shall contain a navigation menu which shows the index into which the current page is contained.,False,True,False,False,False
+req_id,text
+REQ-0237,The product shall comply with the estimatics laws relating to recycled parts usage.
+REQ-0007,The product shall respond fast to keep up-to-date data in the display.
+REQ-0432,The website shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the website.
+REQ-0376,System shall let existing customers log into the website with their email address and password in under 5 seconds.
+REQ-0203,The product must support Mozilla Firefox 1.0 and above.
+REQ-0250,The estimator shall search for available recycled parts using a list of preferred parts suppliers.
+REQ-0474,If a lead is scored to the high range the system will supply the lead data and score to the enterprise system.
+REQ-0346,The product shall have a customizable Look and Feel.
+REQ-0524,For each shot the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.
+REQ-0497,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.
+REQ-0618,""" The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group prior to implementation. The remaining 5% will be corrected and approved within one month of product release."""
+REQ-0159,The Disputes application shall interface with the Letters application. This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.
+REQ-0146,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student including student ID student name phone number e-mail status (full time or part time) and program of study.
+REQ-0459,Website must be able to support free trial periods with various parameters set by the Izogn Manager.
+REQ-0016,The bottom 3/4 of the table will hold events that occur according to its relevance to current time.
+REQ-0117,The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Membersâ€™ planning purposes.
+REQ-0350,The System shall allow for a minimum of 6 users to work at the same time.
+REQ-0589,The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats). Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.
+REQ-0063,The system shall be able to call the seller or buyer to schedule an appointment
+REQ-0033,The system shall be intuitive and self explanatory.
+REQ-0070,The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.
+REQ-0169,The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.
+REQ-0313,The product shall ensure that only company employees or external users with company-approved user IDs may have product access. 100% of all logons shall be by either company employees or external users with company-approved user IDs.
+REQ-0123,A clinical lab section shall include the clinical site name the class instructor day and time of the lab.
+REQ-0235,The system shall prevent malicious attacks including denial of service.
+REQ-0076,Staff members shall be able to complete a set of tasks in a timely manner.
+REQ-0248,The system shall return a list of repair facilities within the radius if the preferred repair facility cannot be determined.
+REQ-0197,The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions. The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.
+REQ-0101,A cohort shall be associated to one Program of Study offered by the department.
+REQ-0056,The product shall prevent its data from incorrect data being introduced.
+REQ-0204,The product shall interface with the Choice Parts System. This provides the feed of recycled parts data.
+REQ-0351,The System shall utilize currently owned computer equipment.
+REQ-0040,The product shall synchronize contacts and appointments in an acceptable time.
+REQ-0596,Each page shall contain a navigation menu which shows the index into which the current page is contained.
+REQ-0065,The realtor shall be able to retrieve a map showing property locations for a specified area
+REQ-0112,A non-clinical class shall specify the course name lecture room requirements and instructor needs.
+REQ-0046,The product shall retain user preferences in the event of a failure.
+REQ-0319,The language of the product shall accommodate all of the target market countries. 90% of survey respondents from each target market country will find that the language of the product is acceptable.
+REQ-0323,The product will notify employees of meeting invitations.
+REQ-0288,The product shall use a standard navigation menu familiar to most web users.
+REQ-0148,All screens created as part of the Disputes application must comply with corporate standards for interface creation.
+REQ-0122,Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.
+REQ-0366,PME Subsystem shall allow building product menus based on the list of products kept in the accounting system.
+REQ-0015,The top 1/4 of the table will hold events that are to occur sequentially.
+REQ-0615,""" New branches/complexes/districts/regions and revenue/expense accounts added to the BDW must be reflected in the RFS system. 100% of the entities (mentioned above) available as of October month-end will be loaded into the RFS system prior to the budget start process."""
+REQ-0509,Once a game is initiated the product shall display a defensive grid to each player
+REQ-0546,The system must be available for use between 7:00AM and 11:59PM all days of the year.
+REQ-0098,The system shall protect private information in accordance with the organizationâ€™s information policy.
+REQ-0518,For each turn the product shall identify one player as offensive status and one player as defensive status.
+REQ-0499,The product shall be intuitive and self-explanatory. Nine out ten users shall be able to successfully complete a game with no training.
+REQ-0095,Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.
+REQ-0445,The website will allow customers to search for movies by title actor or director.
+REQ-0592,The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.
+REQ-0452,Website shall allow the Izogn administrator to approve a review posted by a customer.
+REQ-0210,The product shall be easy to use by Adjusters and Collision Estimators. 95% of Adjusters and Collision Estimators shall find the product easy to use.
+REQ-0032,The system shall be used by realtors with no training.
+REQ-0021,The system shall offer a display of all the Events in the exercise.
+REQ-0265,The audit report shall be displayed to the user.
+REQ-0610,""" The RFS system should be available 24/7 especially during the budgeting period. The RFS system shall be available 90% of the time all year and 98% during the budgeting period. 2% of the time the system will become available within 1 hour of the time that the situation is reported."""
+REQ-0183,The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.
+REQ-0138,The system will notify affected parties when changes occur affecting clinicals including but not limited to clinical section capacity changes and clinical section cancellations.
+REQ-0088,The system shall interface with the faculty central server.
+REQ-0019,The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.
+REQ-0344,The product will allow priviledged users to view meeting schedules in multiple reporting views.

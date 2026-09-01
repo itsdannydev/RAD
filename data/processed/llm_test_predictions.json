@@ -236,5 +236,215 @@
     "unresolved_pronoun": false,
     "missing_measurable": false,
     "weak_conflicting_modality": false
+  },
+  "REQ-0065": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0112": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0046": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0319": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0323": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0288": {
+    "vague_quantifier": true,
+    "passive_no_actor": false,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0148": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0122": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0366": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0015": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0615": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0509": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0546": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0098": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0518": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0499": {
+    "vague_quantifier": true,
+    "passive_no_actor": false,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0095": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": true
+  },
+  "REQ-0445": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0592": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": true
+  },
+  "REQ-0452": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0210": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0032": {
+    "vague_quantifier": true,
+    "passive_no_actor": false,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0021": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0265": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0610": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": true
+  },
+  "REQ-0183": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0138": {
+    "vague_quantifier": true,
+    "passive_no_actor": false,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0088": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0019": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
+  },
+  "REQ-0344": {
+    "vague_quantifier": false,
+    "passive_no_actor": true,
+    "unresolved_pronoun": false,
+    "missing_measurable": false,
+    "weak_conflicting_modality": false
   }
 }

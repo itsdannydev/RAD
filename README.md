@@ -4,6 +4,11 @@ Detects ambiguous requirement statements against a 5-category taxonomy using
 three independent methods (rule-based, ML, LLM zero-shot) plus a hybrid that
 feeds rule flags into the ML classifier as extra features.
 
+See [`FAILURE_GALLERY.md`](FAILURE_GALLERY.md) for concrete sentences showing
+where the hybrid genuinely succeeds where individual methods fail, and where
+it still falls short — pulled from both the benchmark test set and a
+from-scratch out-of-domain stress test.
+
 ## Taxonomy
 
 Each requirement is scored against 5 independent categories (a requirement
@@ -85,6 +90,14 @@ python3 -m src.benchmark.evaluate
 ```
 LLM predictions on the test set are cached in
 `data/processed/llm_test_predictions.json` — delete it to force fresh calls.
+
+**Run the out-of-domain stress test** (10 fresh sentences for a fitness-
+wearable/IoT product — a domain never seen in training — through all 4
+methods, no retraining):
+```bash
+python3 -m src.out_of_domain_test
+```
+See `FAILURE_GALLERY.md` for the annotated highlights from this run.
 
 ## Running the Streamlit app
 
@@ -204,35 +217,42 @@ then check `/tmp/streamlit.log` if anything looks wrong.
 
 ## Results
 
-Benchmarked on a 34-item held-out test set, with ground truth **independently
-hand-verified against the taxonomy** (not derived from rule output — see
-Methodology note below):
+Benchmarked on a **64-item** held-out test set, with ground truth
+**independently hand-verified against the taxonomy** (not derived from rule
+output — see Methodology note below). The original 34 items were verified
+first; the test set was later expanded with 30 more independently-verified
+PROMISE sentences specifically to reduce reliance on such a small evaluation
+set (see Methodology note):
 
 | Category | Method | P | R | F1 |
 |---|---|---|---|---|
-| vague_quantifier | rules | 0.86 | 0.86 | **0.86** |
-| | ml | 0.50 | 0.29 | 0.36 |
-| | llm | 0.67 | 0.57 | 0.62 |
-| | hybrid | 0.86 | 0.86 | **0.86** |
-| passive_no_actor | rules | 0.83 | 0.71 | **0.77** |
-| | ml | 0.67 | 0.57 | 0.62 |
-| | llm | 0.25 | 1.00 | 0.40 |
-| | hybrid | 0.83 | 0.71 | **0.77** |
+| vague_quantifier | rules | 0.83 | 0.83 | **0.83** |
+| | ml | 0.50 | 0.25 | 0.33 |
+| | llm | 0.60 | 0.50 | 0.55 |
+| | hybrid | 0.83 | 0.83 | **0.83** |
+| passive_no_actor | rules | 0.91 | 0.71 | **0.80** |
+| | ml | 0.56 | 0.36 | 0.43 |
+| | llm | 0.26 | 1.00 | 0.41 |
+| | hybrid | 0.91 | 0.71 | **0.80** |
 | unresolved_pronoun | rules | 0.25 | 1.00 | 0.40 |
 | | ml | 1.00 | 1.00 | **1.00** |
 | | llm | 0.17 | 1.00 | 0.29 |
 | | hybrid | 0.33 | 1.00 | 0.50 |
 | missing_measurable | rules | 1.00 | 0.60 | **0.75** |
-| | ml | 0.50 | 0.20 | 0.29 |
+| | ml | 0.25 | 0.20 | 0.22 |
 | | llm | 0.75 | 0.60 | 0.67 |
 | | hybrid | 1.00 | 0.60 | **0.75** |
-| weak_conflicting_modality | all 4 methods | 1.00 | 1.00 | 1.00 |
+| weak_conflicting_modality | rules | 1.00 | 1.00 | **1.00** |
+| | ml | 1.00 | 0.50 | 0.67 |
+| | llm | 0.50 | 1.00 | 0.67 |
+| | hybrid | 1.00 | 1.00 | **1.00** |
 
-**Macro-average:** rules 0.76, ML 0.65, LLM 0.59, **hybrid 0.78**.
+**Macro-average:** rules 0.76, ML 0.53, LLM 0.52, **hybrid 0.78**.
 
-`unresolved_pronoun` and `weak_conflicting_modality` each have very few
-positive examples in this 34-item test set — treat those two rows as
-high-variance, not precise.
+`unresolved_pronoun` only has 1-4 positive examples across this test set
+(genuinely rare in PROMISE, even after expansion) — treat that row as
+high-variance, not precise. The other 4 categories now rest on a broader
+base (5-14 positives each) than the original 34-item set.
 
 ## Methodology note (important for the report)
 
@@ -260,6 +280,21 @@ surfaced during development and is worth stating explicitly:
   were independently corrected); this is a real threat to validity, not
   hidden — state it as a limitation rather than presenting the benchmark
   numbers as a clean, independent evaluation of the rules.
+- **Test set expansion:** the original 34-item verified test set was later
+  grown to 64 by independently hand-verifying 30 more PROMISE sentences the
+  same way (sampled fresh from the ~450 PROMISE requirements never used
+  anywhere in this project, judged against the taxonomy text with no
+  reference to rule output, then appended to `test.csv` and
+  `test_human_verified.csv` — see `data/processed/test_expansion_labels.csv`
+  for just the new rows). None of these 30 were added to training. This is
+  the single most direct answer to "how do you know your benchmark isn't
+  circular" a tough reviewer will ask — bigger, still-independent ground
+  truth is a stronger claim than the original 34 items alone.
+- **Out-of-domain generalization check:** `src/out_of_domain_test.py` runs
+  10 fresh sentences written for a fitness-wearable/IoT product (a domain
+  PROMISE never covers) through all 4 methods with no retraining. See
+  `FAILURE_GALLERY.md` for the annotated results — used to answer "does this
+  only work on the data you trained on."
 
 ## Known limitations
 
@@ -271,9 +306,10 @@ surfaced during development and is worth stating explicitly:
 - **Lexicons are hand-curated and incomplete** (`rules/vague_quantifiers.txt`,
   `rules/performance_adjectives.txt`, `rules/referent_nouns.txt`,
   `rules/modal_strength.csv`) — extend them for other domains/corpora.
-- **Small dataset overall** (169 labeled items, 135 train / 34 test) — CV and
-  test metrics carry real variance; this was a deliberate scope cut for a
-  ~5-hour build, not an oversight.
+- **Small dataset overall** (169 labeled items, 135 train / 64 test) — CV and
+  test metrics carry real variance, particularly for `unresolved_pronoun`
+  (still only 1-4 test positives even after expansion); this was a
+  deliberate scope cut for a ~5-hour build, not an oversight.
 - **LLM baseline is deliberately simple** (single zero-shot prompt, no
   few-shot examples or chain-of-thought) — it's a comparison point, not tuned
   for best possible performance.
@@ -281,15 +317,18 @@ surfaced during development and is worth stating explicitly:
 ## Project structure
 
 ```
+README.md                       this file
+FAILURE_GALLERY.md               concrete success/failure examples for the report
 rules/                          editable lexicons (vague words, performance
                                  adjectives, referent nouns, modal strengths)
 data/raw/promise_nfr.csv        source dataset (PROMISE NFR, 622 unique reqs)
 data/processed/
   to_label.csv                  sampled batch for labeling
   prelabeled.csv                rule-detector pre-fill (all fields + spans)
-  labels.csv                    final labels (169 rows)
-  train.csv / test.csv          80/20 split
-  test_human_verified.csv       independent test-set ground truth
+  labels.csv                    final labels (169 rows, train/test source)
+  train.csv / test.csv          80/20 split (test.csv expanded to 64 rows)
+  test_human_verified.csv       independent test-set ground truth (64 rows)
+  test_expansion_labels.csv     just the 30 rows added when the test set was expanded
   ml_model.joblib               trained TF-IDF+LR model
   hybrid_model.joblib           trained hybrid model
   benchmark_results.json        full benchmark predictions + scores
@@ -300,6 +339,7 @@ src/
   augment_rare_categories.py    oversample rare categories
   prelabel.py                   run rule detector over labeling batch
   finalize_labels.py            labels.csv + train/test split
+  out_of_domain_test.py         fitness-wearable/IoT generalization stress test
   rules/detector.py             rule-based detector (5 checks)
   ml/train.py                   TF-IDF + logistic regression
   llm/ollama_classifier.py      Ollama zero-shot baseline
