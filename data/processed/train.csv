@@ -1,0 +1,136 @@
+req_id,text,vague_quantifier,passive_no_actor,unresolved_pronoun,missing_measurable,weak_conflicting_modality
+REQ-0557,The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators),False,False,False,False,False
+REQ-0453,System will allow customers to pay for a streaming movie with a pre-paid card.,False,False,False,False,False
+REQ-0542,The system shall be responsive. At the DePaul TeleServices Center when a supervisor uses the system to view a callers schedule the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.,True,False,False,True,False
+REQ-0249,The estimator shall search for available recycled parts using damaged vehicle parts information.,False,False,False,False,False
+REQ-0269,The system will display a blank set of ratings if there are not ratings yet defined.,False,False,False,False,False
+REQ-0145,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section including the clinical site name the department/section for the lab the class instructor day and time of lab and contact information.,False,False,False,False,False
+REQ-0277,The product will require collaboration with a database management system (DBMS). The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.,False,True,False,False,True
+REQ-0038,The product shall generate a CMA report in an acceptable time.,True,False,False,False,False
+REQ-0523,For each shot the product shall notify the players whether the shot was a hit or miss.,False,False,False,False,False
+REQ-0107,Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes,False,False,False,False,False
+REQ-0469,The washing process must use a non binding neutral data format such as xml when receiving and processing lead data.,False,False,False,False,False
+REQ-0023,The system shall allow a user to define the time segments,False,False,False,False,False
+REQ-0271,The ratings shall be from a scale of 1-10,False,False,False,False,False
+REQ-0236,The product must comply with Sarbanes-Oxley.,False,False,False,False,False
+REQ-0017,The system shall color code events according to their variance from current time.,False,False,True,False,False
+REQ-0034,The product shall be easy for a realtor to learn.,True,False,False,False,False
+REQ-0552,The interface shall be appealing to callers and supervisors. In the interface and usability survey 80% of beta testers must report that the interface is appealing.,False,False,False,False,False
+REQ-0244,The system shall locate the preferred repair facility with the highest ratings for the input criteria,False,False,False,True,False
+REQ-0487,The leads washing functionality shall receive a period list of available reps from the enterprise system.,False,False,False,False,False
+REQ-0105,Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.,False,False,False,False,False
+REQ-0025,The system shall offer the ability to pause and resume the refresh of data.,False,False,False,False,False
+REQ-0230,Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.,False,False,False,False,False
+REQ-0172,All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.,False,False,False,False,False
+REQ-0477,If the leads score falls within the high average score then it will be process by the ARA functionality.,False,False,False,True,False
+REQ-0185,The Disputes System will provide the user the ability to create or initiate a ticket retrieval request. As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request. The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.,False,True,False,True,False
+REQ-0211,The product shall increase productivity of Collision Estimators. 80% of the Collision Estimators shall agree their productivity has increase within 1 month of using the product.,False,False,True,False,False
+REQ-0374,System shall let customers register on the website as a â€œpay as you goâ€‌ user in under 5 minutes.,False,False,False,False,False
+REQ-0214,The user shall easily locate instructions while using the product. User help can be found within 90% of the system.,False,True,False,False,True
+REQ-0128,A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.,False,False,False,False,False
+REQ-0262,The audit report shall include the number of available recycled parts from the original search results.,False,False,False,False,False
+REQ-0601,""" Users shall be able to view at least 25 NFL player statistics and points on each page.""",False,False,False,False,False
+REQ-0548,The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.,False,True,False,False,True
+REQ-0004,If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100,False,False,False,False,False
+REQ-0310,The product shall be translated into foreign languages other than the target market countriesâ€™ languages in future releases. For each emerging target market it shall take no more than 5 days to configure the product for that marketâ€™s language.,False,True,False,False,False
+REQ-0492,When a shot is marked as a miss the product shall simulate the sound of a shot missing its target.,False,True,True,False,False
+REQ-0276,The product will function alongside server software on any operating system where the Java runtime can be installed.,False,True,False,False,True
+REQ-0387,Users should only have to navigate through a maximum of 4 pages to create an account with the website.,False,False,False,False,False
+REQ-0160,The Disputes application shall interface with the Cardmember Posting and Billing System. This will allow the Disputes application to request adjustments to cardmember and merchantâ€™s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.,False,True,False,False,False
+REQ-0047,100% of saved user preferences shall be restored when system comes back online.,False,True,False,False,False
+REQ-0447,Website shall request and authorize credit card payment before allowing a user to stream a movie.,False,False,False,False,False
+REQ-0565,The product shall be robust with fault tolerance.The product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures.,True,False,False,False,False
+REQ-0489,The product shall display the grids within a circle as a view from a periscope.,False,False,False,False,False
+REQ-0341,The product shall record different meeting types.,False,False,False,False,False
+REQ-0254,The available recycled parts information and their suppliers shall be returned to the user.,False,True,True,False,False
+REQ-0595,The Commissioner will be the only authorized user per league to adjust league settings.,False,False,False,False,False
+REQ-0089,The system shall interface with the student master server.,False,False,False,False,False
+REQ-0005,The product shall ensure that it can only be accessed by authorized users. The product will be able to distinguish between authorized and unauthorized users in all access attempts,False,False,False,False,True
+REQ-0353,The System shall maintain consistent security. Any changes in user passwords and/or permissions should take affect in all parts of the System.,True,False,False,False,True
+REQ-0140,The system will notify affected parties when changes occur affecting cohorts including but not limited to changes to the sequence for a cohortâ€™s program of study and changes to a given weekâ€™s schedule (lab cancelled this week due to instructor illness).,False,False,False,False,False
+REQ-0165,The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing userâ€™s access level. The report will be reviewed for auditing purposes.,False,True,False,False,False
+REQ-0514,The product shall allow the player to position ships vertically on their grid.,False,False,False,False,False
+REQ-0357,The System shall allow generation of Inventory Quantity Adjustment documents on demand.,False,False,False,False,False
+REQ-0343,The product shall notify building personnel of equipment transport requests.,False,False,False,False,False
+REQ-0291,The response shall be fast enough to avoid interrupting the userâ€™s flow of thought. 90% of tasks shall complete within 5 seconds. 98% of tasks shall complete within 8 seconds.,True,False,False,True,False
+REQ-0103,Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort,False,False,False,False,False
+REQ-0069,All of the users shall be able to use the system after one day of training.,False,False,False,False,False
+REQ-0440,The website should appeal to all Africans not only Nigerians.,False,False,False,False,False
+REQ-0132,The system shall be able to display a printable summary for individual clinical labs which will include (but not be limited to) class name class number lab section listing of students enrolled instructor day(s) time and location.,False,False,False,False,False
+REQ-0356,The System shall not require additional third party licenses resulting in royalty fees.,False,False,False,False,False
+REQ-0124,Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.,False,False,False,False,False
+REQ-0052,90% of untrained realtors shall be able to install the product on their device without printed instructions,False,False,False,False,False
+REQ-0475,The leads washing functionality will validate all leads received by the web service for valid data,False,False,False,False,False
+REQ-0349,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,False,False,False,False,False
+REQ-0125,The system shall allow a Program Administrator or Nursing staff member to remove a student from a clinical lab section.,False,False,False,False,False
+REQ-0498,The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.,False,False,False,False,True
+REQ-0192,The Disputes System shall accurately provide a list of possible reason codes for a given transaction. The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to according to the business rules defined for the Disputes System.,False,True,False,True,False
+REQ-0455,System shall automatically update the main page of the website every Friday and show the 4 latest movies that have been added to the website.,False,True,False,False,False
+REQ-0527,When the hit results in sinking a ship the product shall mark the ship as sunk on the defensive grid of the defensive player.,False,False,False,False,False
+REQ-0339,The product shall display room equipment according to search parameters.,False,False,False,False,False
+REQ-0354,The System shall granularly control access rights to all major subsystems. It should be possible to assign access rights to all subsystems independently.,False,False,False,False,True
+REQ-0256,The estimator shall not apply recycled parts to the collision estimate if no available parts are returned.,False,True,False,False,False
+REQ-0578,The interface must summarize the data in a fashion thatâ€™s appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface,False,False,False,True,False
+REQ-0164,All authorized users once authenticated must be able to logon to the Disputes System,False,False,False,False,False
+REQ-0478,If the leads score falls within the medium average then it will be set for manual verification by an Enrollment Coordinator through the eleads system.,False,False,True,False,False
+REQ-0209,The appearance of the product shall appear professional,False,False,False,False,False
+REQ-0229,Only adjusters can request recycled parts audit reports. No users without an adjuster role shall request recycled parts audits.,False,False,False,False,True
+REQ-0556,The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.,False,False,False,False,False
+REQ-0003,The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.,True,False,False,False,False
+REQ-0479,If the leads score falls within the low average then it will be returned to the supplying vendor,False,True,True,True,False
+REQ-0501,The product shall provide players no access to information that might reveal the identity of another player,False,False,False,False,True
+REQ-0253,The system shall retain the available recycled parts and suppliers returned from the search.,False,False,False,False,False
+REQ-0604,The application shall have a downtime of at most 10 minutes per year.,False,False,False,False,False
+REQ-0251,The system shall search for available recycled parts for the supplied vehicle parts and suppliers.,False,False,False,False,False
+REQ-0416,Movies shall be encoded for 56k and 256k streams.,False,True,False,False,False
+REQ-0074,The system shall use symbols and words that are naturally understandable by the user community.,False,False,False,False,False
+REQ-0368,PME Subsystem shall allow for a product to exist in more than one submenu,False,False,False,False,False
+REQ-0246,The adjuster shall be able to override the preferred repair facitlity on the estimate assignment.,False,False,False,False,False
+REQ-0516,The product shall prevent the player from overlapping ships on their grid.,False,False,False,False,False
+REQ-0575,The system shall use IBM and CCR branding standards. The interface must have one IBM logo and one CCR logo.,True,False,False,False,False
+REQ-0129,A staff member shall have the ability to manage the progress of a part time student which includes modifying their sequence of classes and timeline of classes.,False,False,True,False,False
+REQ-0535,The product shall allow a player to end a game at any time during the game.,False,False,False,False,False
+REQ-0491,When the offensive player takes a shot the product shall simulate the sound of a ship at sea.,False,False,False,False,False
+REQ-0119,Classes for a given cohort shall not conflict with regards to the time and day that they are offered.,False,True,True,False,False
+REQ-0298,The product must be able to interface with any HTML browser. The product shall transmit data between the user and the product without problems. The product shall display HTML properly in 80% of all HTML browsers tested (minimum is to test 8 browsers).,False,False,False,False,False
+REQ-0467,The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.,False,True,False,False,False
+REQ-0496,The product shall able to handle a large number of games simultaneously.,False,False,False,True,False
+REQ-0264,The audit report shall include the total score of the audit which sums the indivual line items.,False,False,False,False,False
+REQ-0417,Promotional updates to the website should take a day to update.,False,False,False,False,False
+REQ-0504,Once a game has been initiated the product shall make the players assigned to the game unavailable for selection from the list of players.,False,True,False,False,False
+REQ-0367,PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.,False,False,False,False,False
+REQ-0511,The product shall prevent a player from viewing the offensive or defensive grids of the other player.,False,False,False,False,False
+REQ-0574,The product shall have audit capabilities.The product shall store messages for a minimum of one year for audit and transaction tracking purposes.,False,False,False,True,False
+REQ-0581,Rreports must be easy to generate. eports must be generated within one button click and exported within one button click (after selecting the report),True,True,False,False,False
+REQ-0406,The streaming server will support a maximum of 700 movies new servers can be added to support more movies.,False,True,False,False,True
+REQ-0189,The Disputes System shall allow the user to create or initiate a chargeback request. The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.,False,True,False,True,False
+REQ-0260,The system shall generate an audit report based on the available recycled parts and the collision estimate.,False,False,False,False,False
+REQ-0550,The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.,False,True,False,False,True
+REQ-0083,The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years.,False,True,False,False,False
+REQ-0483,The leads washing functionality will have an interface in which lead data parameters can be maintained.,False,True,False,False,True
+REQ-0190,The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information the dispute case number the type of chargeback requested (pending or immediate) and the date that the merchant response is due.,False,False,False,True,False
+REQ-0539,When a game is ended the product shall allow each player to remove himself or herself from the list of players.,False,True,False,False,False
+REQ-0194,The Disputes System must provide Search functionality. The search method must include the ability to search by (1) the dispute case number (2) the merchant account number (3) the cardmember account number and (4) the issuer number. In addition to the above criteria the search functionality must further allow the user to limit the results of the search by a date range the type of dispute (ticket retrieval request or chargeback notification) the case status (open closed or all) and the dispute reason code.,False,False,False,False,False
+REQ-0149,The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.,True,True,False,False,False
+REQ-0232,Only valid data shall be entered into the system. No invalid data shall be entered into the system.,False,True,False,False,False
+REQ-0299,The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.,True,False,False,False,False
+REQ-0292,Aside from server failure the software product shall achieve 99.99% up time.,False,False,False,False,False
+REQ-0472,The vendor will verify the invalid lead.,False,False,False,False,False
+REQ-0263,The audit report shall include the percentage of available recycled parts used in the estimate,False,False,False,False,False
+REQ-0383,The website shall be attractive to all audiences. The website shall appear to be fun and the colors should be bright and vibrant.,False,False,False,False,True
+REQ-0142,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier program of study preferred sequence of classes and quarters that a cohort will be taking specific classes.,False,False,False,False,False
+REQ-0549,The product shall ensure that only supervisors can enter a callerâ€™s schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.,False,True,False,False,True
+REQ-0199,For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process a case activity will be generated. Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.,False,True,False,False,False
+REQ-0460,All streaming movie sales will be logged in the database and accessible by the administrator.,False,True,False,False,False
+REQ-0568,The product shall interface CSR and Datastream.The product shall exchange messages between CSR and EAM on a real time basis without any direct interfaces between two systems.,False,False,False,False,False
+REQ-0392,The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies. Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,True,False,False,False,True
+REQ-0545,The system shall have high availability every day of the year.The system must be available for use between 12:00AM and 6:00PM all days of the year.,False,False,False,True,False
+REQ-0133,The system shall be able to display a printable summary for individual nursing students which will include (but not be limited to) student name student ID admission date classes credits GPA and the cohort that the student is enrolled in.,False,True,False,False,False
+REQ-0317,The product and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data. The product and/or dependent databases/filesystems shall not crash 100% of the time that malicious data is input into the product.,False,False,False,False,False
+REQ-0621,""" The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time the response time should not be more than 10 seconds.not be more than 10 seconds.""",True,False,False,True,False
+REQ-0136,The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.,False,False,False,False,False
+REQ-0081,The system shall cater to 10 simultaneous users from 9am to 5pm.,False,False,False,False,False
+REQ-0421,The website will provide a help section with answers and solutions to common problems.,False,False,False,False,False
+REQ-0576,The system shall be displayable on any work computer a CCR user may have. The system interface shall be formatted to display at 800 by 600 pixel resolution.,False,True,False,False,True
+REQ-0285,The product shall allow the user to select a chosen language from one of the target market countries.,False,False,False,False,False
+REQ-0175,The Disputes application must maintain a detailed history of every action that a user takes on a dispute case. This ensures a complete audit trail if questions arise later on with regard to a particular dispute case.,False,False,False,False,False

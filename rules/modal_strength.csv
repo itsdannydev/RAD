@@ -1,0 +1,10 @@
+modal,tier,meaning
+shall,3,mandatory
+must,3,mandatory
+will,3,mandatory
+should,2,recommended
+ought,2,recommended
+may,1,optional
+can,1,capability
+could,1,optional
+might,1,optional

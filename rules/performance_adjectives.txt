@@ -1,0 +1,31 @@
+# Comparative/performance-related adjectives & adverbs that should be backed
+# by a number+unit nearby (e.g. "respond fast" vs "respond within 200ms").
+# One term per line, lowercase. Used by the missing_measurable_criteria check.
+fast
+quick
+quickly
+slow
+slowly
+rapid
+rapidly
+prompt
+promptly
+immediate
+immediately
+responsive
+efficient
+efficiently
+reliable
+accurate
+accurately
+high
+low
+large
+small
+minimal
+maximal
+maximum
+minimum
+scalable
+lightweight
+performant
